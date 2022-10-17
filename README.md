@@ -36,5 +36,18 @@ rust_exp_lib = { path = "../rust_exp_lib" }
 use rust_exp_lib::utils::*
 ~~~
 
+6. Create tests case
+~~~
+mkdir tests # next to src directory in project
+~~~
+
+my_test.rs
+~~~
+mod tests {
+  
+}
+~~~
+
 ## Reference
 - [Cargo Workspaces](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html)
+- [Rust by Examples](https://doc.rust-lang.org/rust-by-example/)
